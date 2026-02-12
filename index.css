@@ -1,0 +1,54 @@
+*{
+    padding: 0%;
+}
+header{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    nav{
+        display: flex;
+            gap: 20px;
+            flex-direction: row;
+        a{
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+        }
+    }
+}
+.hero_class{
+    border: 2px solid blue;
+    /* background-image: url('D:\nanu_github\photos\building.jpg');
+    background-size: 150% 150%; */
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7),rgba(0,0,0,0.7),url('photos/building.jpg'));
+    background-position:center center ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+button{
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    border: none;
+    transition: 2s ease-in-out;
+}
+button:hover{
+    background-color: red;
+    transform:translateX(60px);
+    transition: 2s ease-in-out;
+}
+.section_head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+p{
+   color: white;     
+}
